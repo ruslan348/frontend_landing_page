@@ -228,7 +228,7 @@ $query    = mysqli_query($conn, "SELECT * FROM tbl_paket");
               <?= $personal[1]; ?>
             </div>
             <div class="ribbon">
-              <?= $personal[7]; ?>
+
             </div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item price best-seler">
