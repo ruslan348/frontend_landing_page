@@ -1,0 +1,57 @@
+.info-contact{
+    margin-top: 0.5rem;
+    margin-bottom: -0.8rem;
+    font-size: 12px;
+    text-decoration: none;
+}
+.info-contact h6{
+    font-size: 12px;
+    color: #afafaf;
+}
+.info-contact .call-phone {
+    position: absolute;
+    right: 0;
+}
+.info-contact a{
+    text-decoration: none;
+    color: #afafaf;
+}
+.info-contact a:hover{
+    color: orange;
+}
+.header1{
+    margin-bottom: 2rem;
+}
+.navbar{
+    margin-bottom: -30px;
+}
+.card {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card-header {
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: #fff;    
+}
+
+.best-seler{
+    color: white;
+    background: blue;
+}
+
+.price {
+    height: 6rem;
+}
+.price p{
+    margin-bottom: -3px;
+}
+.item-product p{
+    margin-bottom: -2px;
+}
+.item-product a{
+     border-radius: 2rem;
+     margin-top: 2rem;
+}
