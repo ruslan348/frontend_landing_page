@@ -120,15 +120,15 @@ $query    = mysqli_query($conn, "SELECT * FROM tbl_paket");
   <!-- service PHP -->
   <div class="container">
     <div class="row text-center mt-5 mb-5">
-      <div class="col-md-4 col-sm-12 zenguard">
+      <div class="col-md-4 col-sm-12 zenguard mb-2">
         <img src="assets/svg/illustration-banner-PHP-zenguard01.svg" width="100" alt="svg_image" class="mb-2 ml-5">
         <h4>PHP Zend Guard Loader</h4>
       </div>
-      <div class="col-md-4 col-sm-12 composer">
+      <div class="col-md-4 col-sm-12 composer mb-2">
         <img src="assets/svg/icon-composer.svg" width="100" alt="svg_image" class="mb-2">
         <h4>PHP Composer</h4>
       </div>
-      <div class="col-md-4 col-sm-12 ioncube">
+      <div class="col-md-4 col-sm-12 ioncube mb-2">
         <img src="assets/svg/icon-php-hosting-ioncube.svg" width="100" alt="svg_image" class="mb-2 mr-5">
         <h4>PHP IonCube Loader</h4>
       </div>
@@ -140,7 +140,7 @@ $query    = mysqli_query($conn, "SELECT * FROM tbl_paket");
       <h4><b>Paket Hosting Singapura yang Tepat</b></h4>
       <h5>Diskon 40% + Domain dan SSL Gratis untuk Anda</h5>
     </div>
-    <div class="row justify-content-center mb-5 paket-hosting">
+    <div class="row justify-content-center paket-hosting">
       <?php $bayi = mysqli_fetch_row($query)  ?>
       <div class="col-md-3 col-sm-6">
         <?php
@@ -228,7 +228,6 @@ $query    = mysqli_query($conn, "SELECT * FROM tbl_paket");
               <?= $personal[1]; ?>
             </div>
             <div class="ribbon">
-
             </div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item price best-seler">
@@ -296,8 +295,8 @@ $query    = mysqli_query($conn, "SELECT * FROM tbl_paket");
           </div>
         <?php endif; ?>
       </div>
-
     </div>
+
     <div class="row text-center powerfull">
       <h4 class="performance mb-4 mt-5">
         Powerfull dengan Limit PHP yang Lebih Besar
@@ -387,7 +386,7 @@ $query    = mysqli_query($conn, "SELECT * FROM tbl_paket");
         Mendukung Penuh Framework Laravel
       </h4>
     </div>
-    <div class="row justify-content-center suport-laravel">
+    <div class="row justify-content-center suport-laravel mb-2">
       <div class="col-md-6 col-sm-12">
         <h4>Tidak perlu menggunakan dedicted atau VPS yang mahal. Layanan PHP hosting murah kami mendukung penuh framework favorit Anda</h4>
         <p><i class="fas fa-check-circle" style="color:rgb(62, 185, 5)"></i>
@@ -494,7 +493,7 @@ $query    = mysqli_query($conn, "SELECT * FROM tbl_paket");
           <li class="list-group-item">uuid</li>
         </ul>
       </div>
-      <div class="col-md-12 text-center">
+      <div class="col-md-12 text-center mt-3">
         <a href="#" class="btn btn-primary">Selengkapnya</a>
       </div>
     </div>
@@ -573,99 +572,44 @@ $query    = mysqli_query($conn, "SELECT * FROM tbl_paket");
         </div>
         <div class="col-md-3 col-sm-6">
           <h6>Layanan</h6>
-          <a href="">
-            <p>Domain</p>
-          </a>
-          <a href="">
-            <p>Shared Hosting</p>
-          </a>
-          <a href="">
-            <p>Cloud VPS Hosting</p>
-          </a>
-          <a href="">
-            <p>Managed VPS Hosting</p>
-          </a>
-          <a href="">
-            <p>Web Builder</p>
-          </a>
-          <a href="">
-            <p>Keamanan SSL / HTTPS</p>
-          </a>
-          <a href="">
-            <p>Jasa Pembuatan Website</p>
-          </a>
-          <a href="">
-            <p>Program Affiliasi</p>
-          </a>
+          <a href="#">Domain</a>
+          <a href="#">Shared Hosting</a>
+          <a href="#">Cloud VPS Hosting</a>
+          <a href="#">Managed VPS Hosting</a>
+          <a href="#">Web Builder</a>
+          <a href="#">Keamanan SSL / HTTPS</a>
+          <a href="#">Program Afiliasi</a>
         </div>
         <div class="col-md-3 col-sm-6">
           <h6>Service Hosting</h6>
-          <a href="">
-            <p>Hosting Murah</p>
-          </a>
-          <a href="">
-            <p>Hosting Indonesia</p>
-          </a>
-          <a href="">
-            <p>Hosting Singapura SG</p>
-          </a>
-          <a href="">
-            <p>Hosting PHP</p>
-          </a>
-          <a href="">
-            <p>Hosting Wordpress</p>
-          </a>
-          <a href="">
-            <p>Hosting Laravel</p>
-          </a>
+          <a href="#">Hosting Murah</a>
+          <a href="#">Hosting Indonesia</a>
+          <a href="#">Hosting Singapura SG</a>
+          <a href="#">Hosting PHP</a>
+          <a href="#">Hosting Wordpress</a>
+          <a href="#">Hosting Laravel</a>
         </div>
         <div class="col-md-3 col-sm-6">
           <h6>Tutorial</h6>
-          <a href="#">
-            <p>Knowledgebase</p>
-          </a>
-          <a href="#">
-            <p>Blog</p>
-          </a>
-          <a href="#">
-            <p>Cara Pembayaran</p>
-          </a>
+          <a href="#">Knowledgebase</a>
+          <a href="#">Blog</a>
+          <a href="#">Cara Pembayaran</a>
         </div>
         <div class="col-md-3 col-sm-6">
           <h6>Tentang Kami</h6>
-          <a href="#">
-            <p>Tim Niagahoster</p>
-          </a>
-          <a href="#">
-            <p>Karir</p>
-          </a>
-          <a href="#">
-            <p>Event</p>
-          </a>
-          <a href="#">
-            <p>Penawaran & Promo Spesial</p>
-          </a>
-          <a href="#">
-            <p>Kontak Kami</p>
-          </a>
+          <a href="#">Tim Niagahoster</a>
+          <a href="#">Karir</a>
+          <a href="#">Event</a>
+          <a href="#">Penawaran & Promo Spesial</a>
+          <a href="#">Kontak Kami</a>
         </div>
         <div class="col-md-3 col-sm-6">
           <h6>Kenapa Pilih Niagahoster ?</h6>
-          <a href="#">
-            <p>Suport Terbaik</p>
-          </a>
-          <a href="#">
-            <p>Garansi Harga Termurah</p>
-          </a>
-          <a href="#">
-            <p>Domain Gratis Selamanya</p>
-          </a>
-          <a href="#">
-            <p>Datacenter Hosting Terbaik</p>
-          </a>
-          <a href="#">
-            <p>Review Pelanggan</p>
-          </a>
+          <a href="#">Suport Terbaik</a>
+          <a href="#">Garansi Harga Termurah</a>
+          <a href="#">Domain Gratis Selamanya</a>
+          <a href="#">Datacenter Hosting Terbaik</a>
+          <a href="#">Review Pelanggan</a>
         </div>
         <div class="col-md-6 col-sm-12">
           <h6>Newsletter</h6>

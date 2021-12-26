@@ -36,12 +36,78 @@
 }
 
 
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>PAKET HOSTING<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
+.paket-hosting-header {
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+.paket-hosting-header h4 h5 {
+    font-size: 0.8rem;
+}
+
+.paket-hosting {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.paket-hosting card {
+    width: 32rem;
+}
+.card{
+    margin-bottom: 1rem;
+}
+
+.card-header {
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background: #fff;
+}
+
+.best-seler {
+    color: white;
+    background: #008fee;
+    border: solid #008fee;
+}
+
+.best-seler a {
+    color: white;
+    background: blue;
+}
+
+.price {
+    height: 6rem;
+}
+
+.price h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.price p {
+    margin-bottom: -3px;
+}
+
+.item-product p {
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+
+.item-product a {
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>SUPORT FRAMEWORK LARAVEL<<<<<<<<<<<<<<<<<<<<<<<<< */
 .frm-laravel {
     font-family: 'Montserrat',
         sans-serif;
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+    font-size: 0rem;
+    margin-bottom: 0;
 }
 
 .suport-laravel {
@@ -68,13 +134,36 @@
 .suport-laravel img {
     width: 100%;
 }
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>MODUL PHP <<<<<<<<<<<<<<<<<<<<<<<<<<< */
+ .modul-php {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 1.5rem;
+     margin-bottom: 1.5rem;
+ }
+
+ .service-modul ul li {
+     border: 0;
+ }
+
+ .service-modul a {
+     border-radius: 20px;
+     border: 1px solid black;
+     color: black;
+     background: #fff;
+ }
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>TEKNOLOGI LVE>>>>>>>> */
 .tekno-lve {
     font-family: 'Montserrat',
         sans-serif;
 }
 
 .tekno-lve h4 {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .tekno-lve p {
@@ -82,6 +171,7 @@
 }
 
 .tekno-lve a {
+    margin-left: 3rem;
     border-radius: 20px;
 }
 
@@ -90,8 +180,217 @@
     margin-top: 2rem;
 }
 
+/* .................................................................................................. */
 
- /* Large devices (desktops, 992px and up) */
+.sosmed {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 6rem;
+    background: #f7f7f7;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.sosmed h5 {
+    font-size: 12px;
+    line-height: 4rem;
+    margin-bottom: -2rem;
+}
+
+.sosmed a {
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.live-chat {
+    font-family: 'Montserrat', sans-serif;
+    background: #00a2f3;
+}
+
+.live-chat h2 {
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.live-chat a {
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    background: #00a2f3;
+}
+
+.footer {
+    background: #303030;
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+.footer h6 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #8e8e8e;
+    text-transform: uppercase;
+}
+
+.footer p {
+    font-family: 'Roboto',
+        sans-serif;
+    color: #8e8e8e;
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 0.5rem;
+}
+
+.footer a {
+    margin-bottom: 1rem;
+    display: block;
+    font-family: 'Roboto',
+        sans-serif;
+    color: #8e8e8e;
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 0.5rem;
+    text-decoration: none;
+}
+
+.footer h5 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #8e8e8e;
+    text-transform: uppercase;
+}
+.footer a:hover {
+    color: rgb(255, 253, 253);
+}
+
+.form-input {
+    margin-left: 1.5rem;
+    width: 18rem;
+    height: 2rem;
+    border: 1px solid #fff;
+    border-radius: 24px;
+    margin-bottom: 1rem;
+    background: #fff;
+}
+
+.input-email {
+    height: 1.5rem;
+    width: 14rem;
+    margin-top: 3px;
+    margin-left: 2px;
+    border-radius: 20px !important;
+}
+
+.input-email input {
+    font-size: 12px;
+    outline-color: none !important;
+    border: none;
+    border-radius: 20px !important;
+}
+
+.btn-email {
+    height: 1.8rem;
+    margin-top: -2px;
+    margin-right: 2px;
+    font-size: 12px;
+    border-radius: 20px;
+    background: #008fee;
+    color: #fff;
+}
+
+.info-promo p {
+    color: #787878;
+    line-height: 0.1rem;
+    text-align: center;
+}
+
+.use-sosmed {
+    margin-left: 2rem;
+}
+
+.use-sosmed a {
+    text-decoration: none;
+    display: none;
+}
+
+.use-sosmed span {
+    margin-right: 2rem;
+}
+
+.media {
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 100%;
+    line-height: 50px;
+    margin-left: 2rem;
+    background: #303030;
+}
+
+.media:hover {
+    background: orange;
+}
+
+.use-sosmed i {
+    margin-left: 16px;
+}
+
+.use-sosmed i:hover {
+    color: rgb(255, 255, 255) !important;
+}
+
+.pay h4 {
+    font-family: 'Roboto',
+        sans-serif;
+    margin-top: 1rem;
+    color: #8e8e8e;
+    font-size: 0.8rem;
+}
+
+.pay img {
+    width: 100%;
+}
+
+.line-footer {
+    color: black;
+}
+
+.copyright {
+    text-align: center;
+    font-family: 'Roboto',
+        sans-serif;
+    margin-top: 0.5rem;
+    color: #e2e2e2;
+    font-size: 0.8rem;
+    line-height: 20px;
+}
+
+.terms {
+    font-family: 'Roboto',
+        sans-serif;
+    margin-top: 0.5rem;
+    color: #e2e2e2;
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+
+
+
+ /*........................................ Large devices (desktops, 992px and up) ....................*/
 @media (min-width: 992px) {
    /* .container {
        border: 1px solid;
@@ -227,7 +526,9 @@
    .paket-hosting card{
        width: 32rem;
    }
-
+   .card {
+       margin-bottom: 1rem;
+   }
    .card-header {
        height: 3rem;
        font-size: 1rem;
@@ -342,6 +643,7 @@
    .service-product p{
         margin-bottom: 4rem;
    }
+
    .frm-laravel{
        font-family: 'Montserrat',
        sans-serif;
@@ -370,6 +672,7 @@
        position: absolute;
        right: 6.5rem;
    }
+
    .modul-php{
         font-family: 'Montserrat', sans-serif;
         font-size: 1.5rem;
@@ -384,6 +687,7 @@
        color: black;
        background: #fff;
    }
+
    .tekno-lve{
        font-family: 'Montserrat',
        sans-serif;
@@ -395,6 +699,7 @@
        font-size: 0.9rem;
    }
    .tekno-lve a{
+       margin-left: 0rem;
        border-radius: 20px;
    }
    .tekno-lve img{
@@ -409,10 +714,12 @@
        height: 4rem;
        background: #f7f7f7;
        line-height: 4rem;
+       text-align: left;       
    }
    .sosmed h5{
         font-size: 14px;
         line-height: 4rem;
+        margin-bottom: 0;
    }
    .sosmed a{
        text-decoration: none;
@@ -420,27 +727,25 @@
    }
    .live-chat{
        font-family: 'Montserrat', sans-serif;
-       /* width: 100%; */
-       /* height: 8rem; */
        background: #00a2f3;
    }
    .live-chat h2{
+       text-align: left;
        line-height: 8rem;
        font-size: 2rem;
        color: #fff;
    }
    .live-chat a{
+        margin-left: 0;
+        margin-bottom: 0;
         margin-top: 2.4rem;
-        /* line-height: 8rem;     */
         font-family: 'Montserrat',
         sans-serif;
         font-size: 1.5rem;
         color: #fff;
         text-decoration: none;
-
         border-radius: 20px;
         border: 1px solid #fff;
-        /* color: black; */
         background: #00a2f3;
    }
    .footer{
@@ -459,10 +764,21 @@
    .footer p{
        font-family: 'Roboto',
        sans-serif;
+       color: #fff9f9;
+       font-size: 0.8rem;
+       font-weight: bold;
+       line-height: 0.5rem;
+   }
+   .footer a{
+       margin-bottom: 1rem;
+       display: block;
+       font-family: 'Roboto',
+       sans-serif;
        color: #8e8e8e;
        font-size: 0.8rem;
        font-weight: bold;
        line-height: 0.5rem;
+       text-decoration: none;
    }
 
    .footer h5 {
@@ -473,16 +789,11 @@
        color: #8e8e8e;
        text-transform: uppercase;
    }
-
-   .footer a,
-   p {
-       text-decoration: none;
-   }
-
-   .footer a,p:hover {
-       color: white;
+   .footer a:hover {
+       color: rgb(255, 253, 253);
    }
    .form-input{
+       margin-left: 0;
        width: 18rem;
        height: 3rem;
        border: 1px solid #fff;
@@ -491,17 +802,24 @@
        background: #fff;
    }
    .input-email{
+       height: 2.2rem;
        width: 16rem;
        margin-top: 5px;
        margin-left: 5px;
        border-radius: 20px !important;
    }
    .input-email input {
+       font-size: 14px;
        outline-color: none !important;
        border: none;
        border-radius: 20px !important;
    }
    .btn-email{
+       width: 6.5rem;
+       height: 2.2rem;
+       margin-top: 0;
+       margin-right: 0;
+       font-size: 14px;
        border-radius: 20px;
        background: #008fee;
        color: #fff;
@@ -509,6 +827,7 @@
    .info-promo p{
        color: #787878;
        line-height: 0.1rem;
+       text-align: left;
    }
    .use-sosmed{
        margin-left: 2rem;
@@ -526,12 +845,16 @@
        border-radius: 100%;
        line-height: 50px;
        margin-left: 2rem;
+       background: #303030;
+   }
+   .media:hover{
+       background: orange;
    }
    .use-sosmed i{
        margin-left: 16px;
    }
-   .use-sosmed a:hover{
-       color: orange !important;
+   .use-sosmed i:hover{
+       color: rgb(255, 255, 255) !important;
    }
    .pay h4{
        font-family: 'Roboto',
@@ -548,6 +871,7 @@
        color: black;
    }
    .copyright{
+       text-align: left;
        font-family: 'Roboto',
        sans-serif;
        margin-top: 0.5rem;
